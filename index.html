@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tajwar-emergency-hotline</title>
+  <!--* Daisy UI cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <!--* Tailwind cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!--* Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--* google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <!--* font family -->
+
+  <style>
+    body {
+      font-family: "Hind Madurai", sans-serif;
+    }
+
+    .another-font {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="border-2 border-red-600 flex items-center justify-between max-w-[1920px] bg-[#ffffff] px-[60px]">
+    <div class="max-w-[186px] flex items-center justify-center gap-1">
+      <div class="w-[50px]">
+        <img src="./assets/logo.png" alt="logo">
+      </div>
+      <h2 class="text-[#006747] font-bold">Emergency<br>Service</h2>
+    </div>
+
+    <div class="border-2 border-blue-600 flex items-center justify-center gap-5">
+      <!--* Heart button  -->
+      <button
+        class="btn flex items-center justify-center gap-2 p-3 bg-[#41ff6b1a] border border-gray-300 rounded-[50px] hover:bg-gray-100 another-font">
+        <span>0</span>
+        <div class="w-[30px] h-[30px]">
+          <img src="./assets/heart.png" alt="heart" class="w-full h-full object-contain" />
+        </div>
+      </button>
+
+      <!--* Coin button  -->
+      <button
+        class="btn flex items-center justify-center gap-2 p-3 bg-[#41ff6b1a] border border-gray-300 rounded-[50px] hover:bg-gray-100 another-font">
+        <span>100</span>
+        <div class="w-[24px] h-[24px]">
+          <img src="./assets/coin.png" alt="heart" class="w-full h-full object-contain" />
+        </div>
+      </button>
+
+      <!--*copy button  -->
+      <button
+        class="btn flex items-center justify-center gap-2 w-[127px] h-[52px] bg-[#00a63e] border border-gray-300 rounded-[50px] hover:bg-gray-100 another-font text-[#ffffff]">
+        <span>2</span>
+        <p>Copy</p>
+      </button>
+    </div>
+  </nav>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
